@@ -1,0 +1,11 @@
+.Menu {
+	
+}
+
+.Menu *{
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+}
+.menuList{
+    font-size: var(--font-medium);
+  }

@@ -1,0 +1,14 @@
+.CountriesTable {
+	
+}
+.CountriesTable .center{
+    justify-content: space-evenly;
+}
+
+.search-input {
+    border: 1px solid var(--secondary-color);
+    padding: 8px;
+    width: 50%;
+    margin-bottom: 16px;
+  }
+
