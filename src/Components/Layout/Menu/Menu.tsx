@@ -9,6 +9,7 @@ function Menu(): JSX.Element {
 <Link to="about">About</Link> 
 <Link to="countriesCard">Countries Card</Link>
   <Link to="countriesTable">Countries Table</Link>
+  
   </div>
         </div>
     );

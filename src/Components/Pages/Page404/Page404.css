@@ -1,3 +1,35 @@
+/* Page404.css */
+
 .Page404 {
-	
-}
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+   
+  }
+  
+  .Page404 h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+   
+  }
+  
+  .centerColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centerColumn img {
+    max-width: 400px;
+    height: auto;
+  }
+  
+  
+.coffeeBean {
+    font-size: 32px;
+    cursor: pointer;
+  }

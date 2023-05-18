@@ -3,6 +3,7 @@ import "./CountriesCard.css";
 import { CountryModel } from "../../../Models/Country";
 import axios from "axios";
 import CountryCard from "../../Shared/CountryCard/CountryCard";
+import notifyService from "../../../Services/Notification Service";
 
 
 function CountriesCard(): JSX.Element {
@@ -12,9 +13,14 @@ function CountriesCard(): JSX.Element {
 
     useEffect(() => {
         axios.get('https://restcountries.com/v2/all')
-             .then(res => {setCountry(res.data);})
-             .catch(err => {console.log('error');});
-    }, []);
+             .then(res => {setCountry(res.data)
+             notifyService.success('Success!!!!!!')
+             })
+             .catch(err => {console.log('error')
+             notifyService.error('warning message!!!')
+            })
+
+        }, []);
 
     return (
         <div className="CountriesCard">

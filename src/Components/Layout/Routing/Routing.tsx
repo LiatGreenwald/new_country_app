@@ -7,6 +7,7 @@ import CountriesCard from "../../Pages/CountriesCard/CountriesCard";
 import Page404 from "../../Pages/Page404/Page404";
 import CountriesTable from "../../Pages/CountriesTable/CountriesTable";
 
+
 function Routing(): JSX.Element {
     return (
         <div className="Routing">
@@ -18,6 +19,7 @@ function Routing(): JSX.Element {
                 <Route path="countriesCard" element={<CountriesCard/>}/> 
                 <Route path="countriesTable" element={<CountriesTable/>}/> 
                 <Route path="*" element={<Page404/>}/> 
+                
             </Routes> 
         </div>
     );
